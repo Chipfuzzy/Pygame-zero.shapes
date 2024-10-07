@@ -21,7 +21,22 @@ def draw():
     screen.draw.filled_circle((500,500),70,"cyan")
     square = Rect((100,100),(70,70))
     screen.draw.rect(square,"black")
+
+def draw1():
+    screen.fill(color)
+    screen.draw.circle((463,463),77,"red")
+    screen.draw.circle((463,463),57,"yellow")
+    screen.draw.circle((463,463),37,"blue")
+    screen.draw.circle((463,463),17,"pink")
+    square = Rect((400,400),(126,126))
+    screen.draw.rect(square,"orange")
+    square = Rect((420,420),(86,86))
+    screen.draw.rect(square,"green")
+    square = Rect((440,440),(46,46))
+    screen.draw.rect(square,"purple")
     
+    
+pgzrun.go()
 
 
 
